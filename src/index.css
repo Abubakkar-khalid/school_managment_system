@@ -1,0 +1,486 @@
+
+body {
+  overflow-x: hidden;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Navbar Items  */
+.Sidebar-Logo-Container {
+  position: sticky; /* Sticky logo at the top */
+  top: 0; /* Always stick to the top */
+  z-index: 1000; /* Ensure it stays above scrolling content */
+  background-color: #000; /* Background color to blend with sidebar */
+  padding: 10px; /* Optional padding */
+}
+
+.Sidebar-Logo {
+  /* border:3px solid white; */
+  height: 60px; /* Set fixed height for the logo */
+  width: auto; /* Maintain aspect ratio */
+}
+
+
+
+.navbar {
+  padding: 0rem 1rem;
+  /* Reduce padding */
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  /* Reduce font size */
+  padding: 0.5rem 0;
+  /* Reduce padding */
+}
+
+.navbar-toggler {
+  padding: 0.5rem 0.5rem;
+  /* Reduce padding */
+}
+
+.navbar-nav {
+  margin-top: 0.5rem;
+  /* Reduce margin */
+}
+
+.form-control {
+  padding: 0.5rem 1rem;
+  /* Reduce padding */
+}
+
+
+.small-text {
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.658);
+  font-weight: 500;
+  margin-top: 14px;
+}
+
+.text-small{
+  position: relative;
+  top: 12px !important;
+}
+
+
+.arrow-symbol {
+  font-size: 13px !important;
+  color: rgba(0, 0, 0, 0.658);
+
+}
+
+.search-icon {
+  font-size: 18px !important;
+}
+
+.tiles-icon {
+  font-size: 17px !important;
+  color: rgba(0, 0, 0, 0.658);
+
+}
+
+.Profile-Icon-Navbar {
+  font-size: 45px !important;
+  color: rgba(0, 0, 0, 0.658);
+  /* margin-top: 12px !important; */
+}
+
+.Signal-Icon-Navbar {
+  font-size: 30px !important;
+  color: rgba(0, 0, 0, 0.658);
+
+}
+
+.Earth-Icon-Navbar {
+  font-size: 18px !important;
+  color: rgba(0, 0, 0, 0.658);
+
+  margin-top: 5px;
+}
+
+.Bell-Icon-Navbar {
+  font-size: 22px !important;
+  color: rgba(0, 0, 0, 0.658);
+
+  margin-top: 5px;
+}
+
+.Message-Icon-Navbar {
+  font-size: 21px !important;
+  color: rgba(0, 0, 0, 0.658);
+
+
+  margin-top: 5px;
+}
+.arrow-symbol{
+  margin-top: 18px !important;
+}
+
+
+
+/* Sidebar Css  */
+
+.Side-bar-spans {
+  font-size: 1px;
+  color: #8080808e;
+}
+
+.Sidebar-Container {
+  background-color: rgb(14, 13, 13);
+     height: 100vh !important; /* Full viewport height */
+    overflow-y: auto !important; /* Vertical scroll if content overflows */
+    overflow-x: hidden !important; /* Prevent horizontal scroll */
+  
+  
+}
+
+.Sidebar-options {
+  color: #808080;
+  font-size: 13px !important;
+  font-weight: bold;
+
+}
+
+/* Dropdown css  */
+
+.arrow-sign {
+  font-size: 10px !important;
+  margin-bottom: 6px;
+  color: #808080;
+  transition: transform 0.2s ease;
+  font-size: 20px;
+  margin-left: 5px;
+  -webkit-transition: transform 0.2s ease;
+  -moz-transition: transform 0.2s ease;
+  -ms-transition: transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
+}
+
+
+.arrow-sign.rotate {
+  transform: rotate(90deg);
+}
+
+
+
+
+.dropdown-options {
+  transition-duration: 3s;
+  /* Opening time */
+  max-height: 0;
+  overflow: hidden;
+}
+
+.show-options {
+  max-height: 100vh;
+}
+
+/* Closing animation */
+.dropdown-options:not(.show-options) {
+  transition-duration: 1s;
+  /* Closing time */
+  max-height: 0;
+}
+
+@keyframes accordion {
+  0% {
+    max-height: 0;
+  }
+
+  100% {
+    max-height: 100vh;
+  }
+}
+
+/* Closing animation */
+.hide-options {
+  transition: max-height 0.5s;
+  max-height: 0;
+}
+
+/* ___________________- */
+.Sidebar-UL {
+  list-style: none;
+  text-decoration: none;
+}
+
+.Sidebar-UL li a {
+  text-decoration: none;
+  padding-left: 8px;
+  color: #808080;
+  font-size: 14px !important;
+}
+
+.Sidebar-UL li {
+  border-left: 1px solid white;
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+.Sidebar-UL li a:hover{
+  color:white;
+}
+
+.Sidebar-UL li a.active {
+  color: white; /* Color for active link */
+}
+
+
+.Navbar-Greater-Sign{
+  font-size: 10px;
+}
+
+
+/* Home Page Css  */
+
+.box-top-text {
+  font-weight: bold;
+}
+
+.box-bottom-text {
+  font-size: 3px !important;
+}
+
+.Home-Box-1 {
+  background: linear-gradient(to right, #07b6d5fa, #07b6d5b7);
+}
+
+.Home-Box-2 {
+  background: linear-gradient(to right, #8C5DF6, #8b5df6b7);
+}
+
+.Home-Box-3 {
+  background: linear-gradient(to right, #3B82F6, #3b83f6b0);
+}
+
+.Home-Box-4 {
+  background: linear-gradient(to right, #D947EF, #d947efb0);
+}
+
+
+/* Home Page Css end */
+
+
+/* Graph Css  */
+
+.Graph-Price {
+  font-size: 1px;
+  font-weight: bold;
+}
+
+.Graph-text {
+  font-size: 1px;
+}
+
+
+/* Table CSS  */
+
+.table {
+  width: 100%;
+  /* Table will take full width */
+}
+
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: left;
+}
+
+.action-btn {
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-weight: bold;
+  border: 2px solid #6f42c1;
+  color: #6f42c1;
+  width: 100px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f3f5;
+}
+
+.table-light tr th {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(131, 108, 108)
+}
+
+.table-data tr td {
+  font-size: 14px;
+  color: grey;
+  font-weight: 400;
+}
+
+.Admin-Query-Table-Data {
+  word-wrap: break-word;
+  white-space: normal;
+  width: 200px;
+}
+
+.icon-container{
+  border:1px solid #7C32FF;
+}
+
+.icon-container:hover {
+  background-color: #7C32FF; /* Bootstrap primary color */
+  cursor: pointer;
+  color: white; /* Change icon color on hover if needed */
+}
+
+
+/* New styles to decrease the first column width */
+.table th:first-child,
+.table td:first-child {
+  width: 70px;
+  /* Adjust width of first column */
+  text-align: center;
+  /* Optional: Center align text in the SL column */
+}
+
+.border-purple-bottom {
+  border-bottom: 2px solid #6f42c1;
+}
+
+.search-input {
+  border: none;
+
+  width: 8rem;
+  border-radius: 0;
+  outline: none;
+  /* padding-left: -42px; */
+}
+
+.search-input:focus {
+  box-shadow: none;
+  border-color: #6f42c1;
+}
+
+
+/* Visitor Page CSS  */
+
+.visitor-paragraph {
+  font-size: .1rem;
+  color: #6f42c1;
+}
+
+.visitor-button {
+  background-color: #6f42c1;
+}
+
+
+
+.visitor-table-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.visitor-table {
+  width: 100%;
+  border-collapse: collapse; /* For cleaner borders */
+  font-size: 16px; /* Make text larger */
+}
+
+.visitor-table th,
+.visitor-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Adding borders for clearer separation */
+}
+
+.visitor-table th {
+  background-color: #f8f9fa; /* Light background for header */
+  font-weight: bold;
+  font-size: 13px;
+  
+}
+
+.visitor-table-hover tbody tr:hover {
+  background-color: #f1f1f1; /* Add hover effect for rows */
+}
+
+.visitor-table-fixed {
+  table-layout: fixed; /* Keep fixed width layout */
+}
+
+.visitor-table-light {
+  background-color: #e9ecef; /* Header background */
+}
+
+.visitor-table-data td {
+  font-size: 13px; /* Adjust row font size */
+}
+
+.visitor-table-container {
+  max-width: 1200px; /* Increase table container size */
+  margin: 0 auto; /* Center the table */
+}
+
+.complaint-side{
+  width: 240px;
+}
+
+.visitor-purple-icon {
+  color: #6f42c1;
+}
+
+.visitor-table-light > tr > th {
+  font-weight: 400;
+}
+/* Admin Setup CSS  */
+
+.Admin-Setup-bg{
+  background-color:  #6f42c1;
+  color: white;
+}
+
+/* Certificate CSS  */
+
+
+.Certificate-action-button{
+  font-size: 2px;
+  font-weight: bold;
+}
+
+.Certificate-table-light > tr > th {
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.Admin-Query-Table-Data img {
+  max-width: 70%;
+  height: auto;
+}
+
+
+
+/* Pending Depost page CSS  */
+
+.Pending-page-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Pending-page-table-head th {
+  background-color: #f0f0f0;
+  padding: 15px 10px;
+  
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.Pending-page-table-body td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
